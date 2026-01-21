@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محاشي - مطعم لقمة هنية</title>
+    <meta name="description" content="منيو المحاشي من مطعم لقمة هنية - ورق عنب، كرنب، كوسة، فلفل. أسعار خاصة للعمرانية.">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #fdf2e9; color: #5d4037; }
+        header { background: #e67e22; color: white; padding: 25px; border-bottom: 5px solid #d35400; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { margin: 0; font-size: 2em; }
+        .container { padding: 20px; max-width: 700px; margin: auto; }
+        .item-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-top: 20px; }
+        .food-item { background: white; padding: 15px; border-radius: 15px; border: 1px solid #edbb99; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center; }
+        .food-item img { width: 100%; height: 120px; object-fit: cover; border-radius: 10px; margin-bottom: 10px; border: 2px solid #e67e22; }
+        .food-item h3 { margin: 0 0 5px 0; color: #d35400; font-size: 1.1em; }
+        .food-item p { margin: 0; font-size: 0.9em; color: #7f8c8d; }
+        .price { background: #27ae60; color: white; padding: 5px 10px; border-radius: 20px; font-size: 1em; display: inline-block; margin-top: 10px; }
+        .whatsapp-float { position: fixed; bottom: 20px; left: 20px; right: 20px; background: #25D366; color: white; text-align: center; padding: 15px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); z-index: 1000; }
+        .back-button { display: inline-block; margin-top: 20px; padding: 10px 20px; background: #5d4037; color: white; border-radius: 8px; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>محاشي 🍲</h1>
+        <p>أشهى أنواع المحاشي الطازجة</p>
+    </header>
+
+    <div class="container">
+        <div class="item-grid">
+            <div class="food-item">
+                <img src="https://via.placeholder.com/180x120/e67e22/ffffff?text=ورق عنب" alt="ورق عنب">
+                <h3>ورق عنب</h3>
+                <p>بالخلطة المصرية الأصيلة</p>
+                <span class="price">٥٠ ج / طبق</span>
+            </div>
+            <div class="food-item">
+                <img src="https://via.placeholder.com/180x120/e67e22/ffffff?text=كرنب" alt="كرنب">
+                <h3>محشي كرنب</h3>
+                <p>الكرنب البلدي الطازج</p>
+                <span class="price">٤٥ ج / طبق</span>
+            </div>
+            <div class="food-item">
+                <img src="https://via.placeholder.com/180x120/e67e22/ffffff?text=كوسة" alt="كوسة">
+                <h3>محشي كوسة</h3>
+                <p>كوسة طازجة محشوة بالأرز</p>
+                <span class="price">٤٠ ج / طبق</span>
+            </div>
+             <div class="food-item">
+                <img src="https://via.placeholder.com/180x120/e67e22/ffffff?text=فلفل" alt="فلفل">
+                <h3>محشي فلفل</h3>
+                <p>فلفل رومي بالخلطة السرية</p>
+                <span class="price">٤٥ ج / طبق</span>
+            </div>
+        </div>
+        <a href="index.html" class="back-button">العودة للمنيو الرئيسي</a>
+    </div>
+
+    <a href="https://wa.me/201120347092" class="whatsapp-float">
+        📲 اطلب الآن (واتساب مباشر)
+    </a>
+</body>
+</html>
