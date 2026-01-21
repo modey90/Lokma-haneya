@@ -7,40 +7,31 @@
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #fdf2e9; color: #5d4037; text-align: center; }
         
-        /* خانة الطلبات الجديدة في أعلى الموقع */
+        /* شريط التنبيهات المحدث */
         .orders-banner { 
             background: #e74c3c; 
             color: white; 
-            padding: 15px; 
+            padding: 10px; 
             font-weight: bold; 
-            font-size: 1.1em;
+            font-size: 0.95em;
             border-bottom: 3px solid #c0392b;
+            line-height: 1.6;
         }
 
         header { background: #e67e22; color: white; padding: 25px; border-bottom: 5px solid #d35400; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         .container { padding: 20px; max-width: 600px; margin: auto; }
-        
         .menu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px; }
-        .category { 
-            background: white; 
-            padding: 20px; 
-            border-radius: 15px; 
-            border: 1px solid #edbb99; 
-            text-decoration: none; 
-            color: #5d4037; 
-            display: block;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        }
-        .category h3 { margin: 0; color: #d35400; font-size: 1.2em; }
-        
+        .category { background: white; padding: 20px; border-radius: 15px; border: 1px solid #edbb99; text-decoration: none; color: #5d4037; display: block; }
+        .category h3 { margin: 0; color: #d35400; }
         .contact-card { background: white; padding: 20px; border-radius: 15px; margin-top: 30px; border: 2px dashed #e67e22; }
-        .whatsapp-float { position: fixed; bottom: 20px; left: 20px; right: 20px; background: #25D366; color: white; text-align: center; padding: 15px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); z-index: 1000; }
+        .whatsapp-float { position: fixed; bottom: 20px; left: 20px; right: 20px; background: #25D366; color: white; text-align: center; padding: 15px; border-radius: 50px; text-decoration: none; font-weight: bold; z-index: 1000; }
     </style>
 </head>
 <body>
 
     <div class="orders-banner">
-        📢 تنبيه: يوجد طلبية ٣٠ وجبة بانية يوم الجمعة الساعة ٦ مساءً
+        📢 طلبية غداً (الخميس) ٨ مساءً: ١٠ وجبات + ٣ كيلو محشي مشكل + ٢ كيلو ورق عنب + ٢ فرخة مشوية + نص سمبوسة جبن. <br>
+        📌 تنبيه: يوجد طلبية أخرى (٣٠ وجبة بانية) يوم الجمعة ٦ مساءً.
     </div>
 
     <header>
@@ -52,14 +43,14 @@
         <div class="menu-grid">
             <a href="Mahashi.html" class="category"><h3>محاشي</h3></a>
             <a href="chicken.html" class="category"><h3>فراخ</h3></a>
-            <div class="category" style="opacity: 0.6;"><h3>مشويات (قريباً)</h3></div>
-            <div class="category" style="opacity: 0.6;"><h3>طواجن (قريباً)</h3></div>
+            <div class="category" style="opacity: 0.6;"><h3>مشويات</h3></div>
+            <div class="category" style="opacity: 0.6;"><h3>طواجن</h3></div>
         </div>
 
         <div class="contact-card">
             <h3>📍 موقعنا في العمرانية</h3>
             <p>شارع كمال منصور، متفرع من شارع مستشفى الصدر</p>
-            <p>📞 01120347092</p>
+            <p>📞 01200773500</p>
         </div>
         
         <div style="height: 100px;"></div> 
